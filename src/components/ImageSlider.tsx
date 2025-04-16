@@ -7,7 +7,12 @@ const images = [
   "/images/slider1.jpg", // These will be your local images
   "/images/slider2.jpg",
   "/images/slider3.jpg",
-  "/images/slider4.jpg"
+  "/images/slider4.jpg",
+  "/images/slider5.jpg",
+  "/images/slider6.jpg",
+  "/images/slider7.jpg",
+  "/images/slider8.jpg"
+  
 ];
 
 const descriptions = [
