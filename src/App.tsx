@@ -8,14 +8,16 @@ import { Contact } from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-black">
+      <div className="min-h-screen bg-black relative">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <main className="relative">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
       </div>
     </Router>
   );
