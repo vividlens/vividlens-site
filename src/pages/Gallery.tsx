@@ -8,19 +8,23 @@ const categories: Category[] = [
     id: '1',
     name: 'Maternity',
     description: 'Capturing the beauty of motherhood',
-    coverImage: 'https://images.unsplash.com/photo-1611175694989-4870fafa4494?w=800&h=600&fit=crop',
+    coverImage: '/images/slider2.jpg', // your local image
     photos: [
       {
         id: 'm1',
-        url: 'https://images.unsplash.com/photo-1611175694989-4870fafa4494?w=800&h=600&fit=crop',
+        url: '/images/slider3.jpg',
         title: 'Maternity Session 1'
       },
       {
         id: 'm2',
-        url: 'https://images.unsplash.com/photo-1595256565459-351ea1fa7a56?w=800&h=600&fit=crop',
+        url: '/images/slider6.jpg',
+        title: 'Maternity Session 2'
+      },
+      {
+        id: 'm3',
+        url: '/images/slider3.jpg',
         title: 'Maternity Session 2'
       }
-      // Add more photos here
     ]
   },
   {
