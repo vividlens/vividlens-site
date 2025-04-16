@@ -59,19 +59,31 @@ export const ImageSlider = () => {
   }, [displayText, isTyping, currentDescription]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen pt-24">
       <AnimatePresence mode="wait">
-        <motion.img
+        <motion.div
           key={currentIndex}
-          src={images[currentIndex]}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.95 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
           transition={{ duration: 2, ease: "easeOut" }}
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+          className="absolute inset-0"
+        >
+          <div className="relative w-full h-full">
+            <img
+              src={images[currentIndex]}
+              alt={`Slide ${currentIndex + 1}`}
+              className="w-full h-full object-cover object-center"
+              style={{
+                maxHeight: 'calc(100vh - 96px)',
+                minHeight: 'calc(100vh - 96px)'
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+          </div>
+        </motion.div>
       </AnimatePresence>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
+      
       <div className="absolute inset-0 flex items-center justify-center text-white">
         <div className="text-center max-w-4xl mx-auto px-4">
           <motion.h1 
