@@ -59,17 +59,20 @@ export const ImageSlider = () => {
   }, [displayText, isTyping, currentDescription]);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen overflow-hidden pt-24 flex items-center justify-center">
       <AnimatePresence mode="wait">
-        <motion.img
-          key={currentIndex}
-          src={images[currentIndex]}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.95 }}
-          transition={{ duration: 2, ease: "easeOut" }}
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+      <motion.img
+      key={currentIndex}
+      src={images[currentIndex]}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1.5, ease: "easeOut" }}
+      className="w-full h-full object-cover"
+      style={{ objectPosition: 'center top' }} // Optional: tweak if you want top-center crop
+      />
+
+
       </AnimatePresence>
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
       <div className="absolute inset-0 flex items-center justify-center text-white pt-24">
