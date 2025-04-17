@@ -27,25 +27,25 @@ const categories: Category[] = [
       }
     ]
   },
-  {
-    id: '2',
-    name: 'Newborn',
-    description: 'First moments of precious lives',
-    coverImage: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
-    photos: [
-      {
-        id: 'n1',
-        url: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
-        title: 'Newborn Session 1'
-      },
-      {
-        id: 'n2',
-        url: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&h=600&fit=crop',
-        title: 'Newborn Session 2'
-      }
-      // Add more photos here
-    ]
-  },
+  // {
+  //   id: '2',
+  //   name: 'Newborn',
+  //   description: 'First moments of precious lives',
+  //   coverImage: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
+  //   photos: [
+  //     {
+  //       id: 'n1',
+  //       url: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
+  //       title: 'Newborn Session 1'
+  //     },
+  //     {
+  //       id: 'n2',
+  //       url: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&h=600&fit=crop',
+  //       title: 'Newborn Session 2'
+  //     }
+  //     // Add more photos here
+  //   ]
+  // },
   // ... other categories with their photos
 ];
 
