@@ -8,50 +8,307 @@ const categories: Category[] = [
     id: '1',
     name: 'Maternity',
     description: 'Capturing the beauty of motherhood',
-    coverImage: '/images/slider2.jpg', // your local image
+    coverImage: '/images/maternity/shekar_divya/LAX05515.jpg',
     photos: [
       {
         id: 'm1',
-        url: '/images/slider2.jpg',
+        url: '/images/maternity/shekar_divya/LAX05515.jpg',
         title: 'Maternity Session 1'
       },
       {
         id: 'm2',
-        url: '/images/slider6.jpg',
+        url: '/images/maternity/shekar_divya/LAX05580.jpg',
         title: 'Maternity Session 2'
       },
       {
         id: 'm3',
-        url: '/images/slider3.jpg',
-        title: 'Maternity Session 2'
+        url: '/images/maternity/shekar_divya/LAX05674.jpg',
+        title: 'Maternity Session 3'
       },
       {
-        id: 'm3',
-        url: '/images/slider3.jpg',
-        title: 'Maternity Session 2'
+        id: 'm4',
+        url: '/images/maternity/shekar_divya/LAX05811.jpg',
+        title: 'Maternity Session 4'
+      },
+      {
+        id: 'm5',
+        url: '/images/maternity/shekar_divya/LAX05854-2.jpg',
+        title: 'Maternity Session 5'
+      },
+      {
+        id: 'm6',
+        url: '/images/maternity/shekar_divya/LAX05916.jpg',
+        title: 'Maternity Session 6'
+      },
+      {
+        id: 'm7',
+        url: '/images/maternity/shekar_divya/LAX06017.jpg',
+        title: 'Maternity Session 7'
+      },
+      {
+        id: 'm8',
+        url: '/images/maternity/shekar_divya/LAX06029.jpg',
+        title: 'Maternity Session 8'
+      },
+      {
+        id: 'm9',
+        url: '/images/maternity/shekar_divya/LAX06040.jpg',
+        title: 'Maternity Session 9'
+      },
+      {
+        id: 'm10',
+        url: '/images/maternity/shekar_divya/LAX06075.jpg',
+        title: 'Maternity Session 10'
+      },
+      {
+        id: 'm11',
+        url: '/images/maternity/shekar_divya/LAX06083.jpg',
+        title: 'Maternity Session 11'
+      }
+    ]
+  },  
+  {
+    id: '2',
+    name: 'House Warming',
+    description: 'A warm beginning to a new journey',
+    coverImage: '/images/housewarming/lavanya/LAX03621.jpg',
+    photos: [
+      {
+        id: 'h1',
+        url: '/images/housewarming/lavanya/LAX02841.jpg',
+        title: 'House Warming Session 1'
+      },
+      {
+        id: 'h2',
+        url: '/images/housewarming/lavanya/LAX02881.jpg',
+        title: 'House Warming Session 2'
+      },
+      {
+        id: 'h3',
+        url: '/images/housewarming/lavanya/LAX02892.jpg',
+        title: 'House Warming Session 3'
+      },
+      {
+        id: 'h4',
+        url: '/images/housewarming/lavanya/LAX03001.jpg',
+        title: 'House Warming Session 4'
+      },
+      {
+        id: 'h5',
+        url: '/images/housewarming/lavanya/LAX03309.jpg',
+        title: 'House Warming Session 5'
+      },
+      {
+        id: 'h6',
+        url: '/images/housewarming/lavanya/LAX03348.jpg',
+        title: 'House Warming Session 6'
+      },
+      {
+        id: 'h7',
+        url: '/images/housewarming/lavanya/LAX03592.jpg',
+        title: 'House Warming Session 7'
+      },
+      {
+        id: 'h8',
+        url: '/images/housewarming/lavanya/LAX03621.jpg',
+        title: 'House Warming Session 8'
+      },
+      {
+        id: 'h9',
+        url: '/images/housewarming/lavanya/LAX03629.jpg',
+        title: 'House Warming Session 9'
+      },
+      {
+        id: 'h10',
+        url: '/images/housewarming/lavanya/LAX03908.jpg',
+        title: 'House Warming Session 10'
+      },
+      {
+        id: 'h11',
+        url: '/images/housewarming/hanumanth/LAX01163.jpg',
+        title: 'House Warming Session 11'
+      },
+      {
+        id: 'h12',
+        url: '/images/housewarming/hanumanth/LAX01173.jpg',
+        title: 'House Warming Session 12'
+      },
+      {
+        id: 'h13',
+        url: '/images/housewarming/hanumanth/LAX01438.jpg',
+        title: 'House Warming Session 13'
+      },
+      {
+        id: 'h14',
+        url: '/images/housewarming/hanumanth/LAX01471.jpg',
+        title: 'House Warming Session 14'
+      },
+      {
+        id: 'h15',
+        url: '/images/housewarming/hanumanth/LAX01645.jpg',
+        title: 'House Warming Session 15'
+      },
+      {
+        id: 'h16',
+        url: '/images/housewarming/hanumanth/LAX01656.jpg',
+        title: 'House Warming Session 16'
+      },
+      {
+        id: 'h17',
+        url: '/images/housewarming/hanumanth/LAX01898.jpg',
+        title: 'House Warming Session 17'
+      },
+      {
+        id: 'h18',
+        url: '/images/housewarming/hanumanth/LAX02383.jpg',
+        title: 'House Warming Session 18'
+      },
+      {
+        id: 'h19',
+        url: '/images/housewarming/hanumanth/LAX02391.jpg',
+        title: 'House Warming Session 19'
       }
     ]
   },
-  // {
-  //   id: '2',
-  //   name: 'Newborn',
-  //   description: 'First moments of precious lives',
-  //   coverImage: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
-  //   photos: [
-  //     {
-  //       id: 'n1',
-  //       url: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=600&fit=crop',
-  //       title: 'Newborn Session 1'
-  //     },
-  //     {
-  //       id: 'n2',
-  //       url: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&h=600&fit=crop',
-  //       title: 'Newborn Session 2'
-  //     }
-  //     // Add more photos here
-  //   ]
-  // },
-  // ... other categories with their photos
+  {
+    id: '3',
+    name: 'Half Saree',
+    description: 'Celebrating tradition and grace',
+    coverImage: '/images/half_saree/havisa/LAX06686.jpg',
+    photos: [
+      {
+        id: 'hs1',
+        url: '/images/half_saree/havisa/LAX06238.jpg',
+        title: 'Half Saree Session 1'
+      },
+      {
+        id: 'hs2',
+        url: '/images/half_saree/havisa/LAX06585.jpg',
+        title: 'Half Saree Session 2'
+      },
+      {
+        id: 'hs3',
+        url: '/images/half_saree/havisa/LAX06588.jpg',
+        title: 'Half Saree Session 3'
+      },
+      {
+        id: 'hs4',
+        url: '/images/half_saree/havisa/LAX06598.jpg',
+        title: 'Half Saree Session 4'
+      },
+      {
+        id: 'hs5',
+        url: '/images/half_saree/havisa/LAX06669.jpg',
+        title: 'Half Saree Session 5'
+      },
+      {
+        id: 'hs6',
+        url: '/images/half_saree/havisa/LAX06686.jpg',
+        title: 'Half Saree Session 6'
+      },
+      {
+        id: 'hs7',
+        url: '/images/half_saree/havisa/LAX07436.jpg',
+        title: 'Half Saree Session 7'
+      }
+    ]
+  },
+  {
+    id: '4',
+    name: 'Family Shoot',
+    description: 'Cherishing moments with loved ones',
+    coverImage: '/images/family/nagaraj/LAX00282.jpg',
+    photos: [
+      {
+        id: 'f1',
+        url: '/images/family/nagaraj/LAX00002.jpg',
+        title: 'Family Shoot Session 1'
+      },
+      {
+        id: 'f2',
+        url: '/images/family/nagaraj/LAX00021.jpg',
+        title: 'Family Shoot Session 2'
+      },
+      {
+        id: 'f3',
+        url: '/images/family/nagaraj/LAX00282.jpg',
+        title: 'Family Shoot Session 3'
+      },
+      {
+        id: 'f4',
+        url: '/images/family/nagaraj/LAX00319.jpg',
+        title: 'Family Shoot Session 4'
+      },
+      {
+        id: 'f5',
+        url: '/images/family/nagaraj/LAX00355.jpg',
+        title: 'Family Shoot Session 5'
+      },
+      {
+        id: 'f6',
+        url: '/images/family/nagaraj/LAX00364.jpg',
+        title: 'Family Shoot Session 6'
+      },
+      {
+        id: 'f7',
+        url: '/images/family/nagaraj/LAX00373.jpg',
+        title: 'Family Shoot Session 7'
+      }
+    ]
+  },
+  {
+    id: '5',
+    name: 'Family Shoot',
+    description: 'Cherishing moments with loved ones',
+    coverImage: '/images/indianevents/sravan/LAX04447.jpg',
+    photos: [
+      {
+        id: 'f1',
+        url: '/images/indianevents/sravan/LAX04277.jpg',
+        title: 'Family Shoot Session 1'
+      },
+      {
+        id: 'f2',
+        url: '/images/indianevents/sravan/LAX04293.jpg',
+        title: 'Family Shoot Session 2'
+      },
+      {
+        id: 'f3',
+        url: '/images/indianevents/sravan/LAX04304.jpg',
+        title: 'Family Shoot Session 3'
+      },
+      {
+        id: 'f4',
+        url: '/images/indianevents/sravan/LAX04319.jpg',
+        title: 'Family Shoot Session 4'
+      },
+      {
+        id: 'f5',
+        url: '/images/indianevents/sravan/LAX04359.jpg',
+        title: 'Family Shoot Session 5'
+      },
+      {
+        id: 'f6',
+        url: '/images/indianevents/sravan/LAX04362.jpg',
+        title: 'Family Shoot Session 6'
+      },
+      {
+        id: 'f7',
+        url: '/images/indianevents/sravan/LAX04379.jpg',
+        title: 'Family Shoot Session 7'
+      },
+      {
+        id: 'f8',
+        url: '/images/indianevents/sravan/LAX04412.jpg',
+        title: 'Family Shoot Session 8'
+      },
+      {
+        id: 'f9',
+        url: '/images/indianevents/sravan/LAX04447.jpg',
+        title: 'Family Shoot Session 9'
+      }
+    ]
+  },
 ];
 
 export const Gallery = () => {
