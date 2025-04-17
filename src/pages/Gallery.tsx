@@ -12,12 +12,17 @@ const categories: Category[] = [
     photos: [
       {
         id: 'm1',
-        url: '/images/slider3.jpg',
+        url: '/images/slider2.jpg',
         title: 'Maternity Session 1'
       },
       {
         id: 'm2',
         url: '/images/slider6.jpg',
+        title: 'Maternity Session 2'
+      },
+      {
+        id: 'm3',
+        url: '/images/slider3.jpg',
         title: 'Maternity Session 2'
       },
       {
