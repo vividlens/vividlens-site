@@ -5,25 +5,31 @@ import type { Testimonial } from '../types';
 const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    content: 'Absolutely amazing experience! The maternity photos captured the beauty of this special time perfectly.',
-    date: '2024-02-15',
+    name: 'Sravan Kumar',
+    content: "We had an incredible experience with Vivid Lens for our recent family event and photo shoot! From start to finish, Lax was professional, friendly, and highly skilled. They captured our special moments beautifully, with stunning attention to detail and natural expressions. My lil one looked like an Angel😍😍 \
+              The final photos exceeded our expectations—crisp, vibrant, and full of emotion. The entire process, from booking to delivery, was seamless, and they made sure we felt comfortable throughout the session. \
+              If you're looking for any photography, I highly recommend Vivid Lens. Thank you for preserving our memories so perfectly! \
+              Thank you Lax!!",
+    date: 'Feb-26-2025',
     rating: 5
   },
   {
     id: '2',
-    name: 'Priya Patel',
-    content: 'Incredible work capturing our traditional ceremony. Every important moment was beautifully documented.',
-    date: '2024-02-10',
+    name: 'Hanumanth Mannepalli',
+    content: "We had Lax from VividLens capture our housewarming ceremony, and the photos & videos exceeded all expectations! 🎥✨ From the sacred pooja rituals to the dinner celebrations, every moment was framed beautifully. The attention to detail and the way emotions were captured made these memories even more special. \
+              Right from the initial communication to the booking process, everything was smooth, clear, and hassle-free. Lax arrived well before time, patiently captured every moment without rushing, and his passion for photography truly reflects in the final output. His services are not only affordable but also come with a professional and friendly approach, making the entire experience comfortable and memorable. \
+              It’s been a long time since I felt this good about my photos, and Lax truly made that happen! If you’re looking for someone who brings passion, creativity, and professionalism to the table, VividLens is the way to go! 📸🔥",
+    date: 'March-02-2025',
     rating: 5
   },
   {
     id: '3',
-    name: 'Michael Chen',
-    content: 'The family portraits exceeded our expectations. Professional, patient, and creative throughout the session.',
-    date: '2024-01-28',
+    name: 'Shekar Nayak Daravath',
+    content: "We recently had a maternity photoshoot with Lakshman, and we couldn’t be happier with the results! From the moment we met him, his professionalism, friendly nature, and creative suggestions made the entire experience enjoyable and comfortable. He took the time to understand our vision and guided us with great ideas, ensuring we felt relaxed and natural in front of the camera. \
+              The final photos exceeded our expectations beautifully captured this special moment in our lives with such elegance and warmth. We truly appreciate Lakshman’s dedication and passion for his work. Highly recommend him to anyone looking for a talented and professional photographer!",
+    date: 'March-13-2025',
     rating: 5
-  }
+  },
 ];
 
 export const Testimonials = () => {
@@ -48,7 +54,7 @@ export const Testimonials = () => {
               </div>
               <p className="font-playfair italic mb-4">{testimonial.content}</p>
               <div className="mt-4 flex justify-between items-center">
-                <span className="font-rockybilly text-lg">{testimonial.name}</span>
+                <span className="font-rockybilly text-xs">{testimonial.name}</span>
                 <span className="text-sm text-gray-400">{new Date(testimonial.date).toLocaleDateString()}</span>
               </div>
             </motion.div>
