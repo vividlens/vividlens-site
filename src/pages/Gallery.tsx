@@ -258,8 +258,8 @@ const categories: Category[] = [
   },
   {
     id: '5',
-    name: 'Family Shoot',
-    description: 'Cherishing moments with loved ones',
+    name: 'Indian Events',
+    description: 'Vibrant celebrations and cultural traditions',
     coverImage: '/images/indianevents/sravan/LAX04447.jpg',
     photos: [
       {
